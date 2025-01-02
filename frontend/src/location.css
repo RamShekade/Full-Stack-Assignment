@@ -1,0 +1,74 @@
+.locations-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .saved-locations-section, .recent-searches-section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-item, .recent-search-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .location-item:last-child, .recent-search-item:last-child {
+    border-bottom: none;
+  }
+  
+  .tag {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .tag.home {
+    background-color: #4caf50;
+  }
+  
+  .tag.office {
+    background-color: #2196f3;
+  }
+  
+  .tag.family {
+    background-color: #ff9800;
+  }
+  
+  .location-details {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .location-icon, .search-icon {
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f44336;
+    font-size: 16px;
+  }
+  
+  .delete-button:hover {
+    color: #d32f2f;
+  }
+  
