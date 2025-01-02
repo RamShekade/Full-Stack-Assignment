@@ -1,0 +1,80 @@
+.map-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .location-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .locate-me-button,
+  .continue-button,
+  .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .locate-me-button:hover,
+  .continue-button:hover,
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .address-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button:focus,
+  input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .map-container {
+      padding: 10px;
+    }
+  
+    .input-container {
+      flex-direction: column;
+    }
+  
+    .locate-me-button {
+      width: 100%;
+    }
+  }
+  
